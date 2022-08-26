@@ -50,9 +50,9 @@ transformers==4.18.0
     - Test Data : 5,774
 
   
-| content  | question |
-|-------|:--------:|
-| answer prefix token(answer:) + answer + content prefix token(content:) + content | question |  
+| Prefix token | Anwer | Prefix token | content | Prefix token | question |
+|-------|:--------:|:--------:|:--------:|:--------:|:--------:|
+| answer: | answer | content: | content | question: | question |  
 
 ## How to Train
 - T5 Question Generation fine-tuning
