@@ -101,4 +101,5 @@ python generate.py
 https://huggingface.co/Sehong/t5-large-QuestionGeneration
   
 ## Reference
-- [Du et al., 2017](https://arxiv.org/pdf/1705.00106.pdf)
+- [Dataset: Du et al., 2017](https://arxiv.org/pdf/1705.00106.pdf)
+- [Evaluation Code](https://github.com/microsoft/unilm/tree/master/unilm-v1/src/qg)
