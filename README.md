@@ -26,7 +26,7 @@ decode = decode.replace(' # # ', '').replace('  ', ' ').replace(' ##', '')
 
 print(decode)
 
-'임종석이 지명수배된 날짜는?'
+'question: Who did Mary appear to in Lourdes ?'
 
 ```
 ## Requirements
@@ -72,21 +72,21 @@ python generate.py
 ## Generation Sample
 | ||Text|
 |-------|-------|-------|
-|1|Answer|1989년 2월 15일|
-|1|Label|임종석이 여의도 농민 폭력 시위를 주도한 혐의로 지명수배 된 날은?|
-|1|koBART|임종석이 지명수배된 날짜는?|
+|1|Answer|Saint Bernadette Soubirous|
+|1|Label|To whom did the Virgin Mary allegedly appear in 1858 in Lourdes France ?|
+|1|T5-large|question: Who did Mary appear to in Lourdes, France?|
 
 | ||Text|
 |-------|-------|-------|
-|2|Answer|임수경|
-|2|Label|1989년 6월 30일 평양축전에 대표로 파견 된 인물은?|
-|2|koBART|1989년 6월 30일 평양축전에 누구를 대표로 파견하여 국가보안법위반 혐의가 추가되었는가?|
+|2|Answer|a copper statue of Christ|
+|2|Label|What is in front of the Notre Dame Main Building ?|
+|2|T5-large|question: What is in front of the Main Building?|
 
 | ||Text|
 |-------|-------|-------|
-|3|Answer|1989년|
-|3|Label|임종석이 여의도 농민 폭력 시위를 주도한 혐의로 지명수배된 연도는?|
-|3|koBART|임종석이 서울지방검찰청 공안부에서 사전구속영장을 발부받은 해는?|
+|3|Answer|the Main Building|
+|3|Label|The Basilica of the Sacred heart at Notre Dame is beside to which structure ?|
+|3|T5-large|question: Where is the Basilica of the Sacred Heart located?|
 
 
 
