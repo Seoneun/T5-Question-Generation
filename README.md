@@ -51,7 +51,7 @@ transformers==4.18.0
 
   
 | Prefix token | Anwer | Prefix token | content | Prefix token | question |
-|-------|:--------:|:--------:|:--------:|:--------:|:--------:|
+|:-------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | answer: | answer | content: | content | question: | question |  
 
 ## How to Train
