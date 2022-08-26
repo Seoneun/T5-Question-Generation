@@ -33,6 +33,7 @@ print(decode)
 ```
 torch==1.8.0
 transformers==4.18.0
+python==2.7 (Evaluation)
 ```
 
 ## Training Environment
