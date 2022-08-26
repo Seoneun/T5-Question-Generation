@@ -92,7 +92,7 @@ python generate.py
 ## Model Performance
 - Using test data to evaluate BLEU, METEOR, ROUGE-L score
   
-| |BLEU-1|BLEU-2|BLEU-3|BLEU-4|
+| |BLEU-1|BLEU-2|BLEU-3|BLEU-4|METEOR|ROUGE-L|
 |------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
 |Score|51.333|36.742|28.218|22.289|26.126|51.069|
 
