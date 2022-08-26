@@ -44,9 +44,9 @@ transformers==4.18.0
 - reference: Du et al., 2017
 - transform txt to tsv
 - Data Structure
-    - Train Data : 60,407
-    - Dev Data : 5,774
-    - Test Data : 5,774
+    - Train Data : 75,722
+    - Dev Data : 10,570
+    - Test Data : 11,877
 
   
 | Prefix token | Anwer | Prefix token | content | Prefix token | question |
