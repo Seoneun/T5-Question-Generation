@@ -101,4 +101,4 @@ python generate.py
 https://huggingface.co/Sehong/t5-large-QuestionGeneration
   
 ## Reference
-- [Du et al., 2017]([https://github.com/SKT-AI/KoBART](https://arxiv.org/pdf/1705.00106.pdf))
+- [Du et al., 2017](https://arxiv.org/pdf/1705.00106.pdf)
