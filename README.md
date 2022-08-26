@@ -33,7 +33,6 @@ print(decode)
 ```
 torch==1.8.0
 transformers==4.18.0
-
 ```
 
 ## Training Environment
@@ -91,16 +90,15 @@ python generate.py
 
 
 ## Model Performance
-- Test Data 기준으로 BLEU score를 산출함
- 
+- Using test data to evaluate BLEU, METEOR, ROUGE-L score
   
 | |BLEU-1|BLEU-2|BLEU-3|BLEU-4|
-|------|:-------:|:-------:|:-------:|:-------:|
-|Score|42.98|31.90|24.15|18.62|
+|------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|Score|51.333|36.742|28.218|22.289|26.126|51.069|
 
 ## Demo
   
-https://huggingface.co/Sehong/kobart-QuestionGeneration
+https://huggingface.co/Sehong/t5-large-QuestionGeneration
   
 ## Reference
 - [KoBART](https://github.com/SKT-AI/KoBART)
